@@ -24,8 +24,8 @@ func Scope(q Query, total *int64) func(*gorm.DB) *gorm.DB {
 		db = applyFilters(db, q.Filters)
 		db = applySorts(db, q.Sorts)
 
-		// Count before applying limit/offset.
-		db.Count(total)
+		// Count on a cloned session so we don't mutate the main query statement.
+		db.Session(&gorm.Session{}).Count(total)
 
 		return db.
 			Limit(q.Page.PerPage).
