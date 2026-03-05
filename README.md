@@ -328,7 +328,7 @@ func (r *repo) List(ctx context.Context, page int, perPage int, filters []Filter
 
 ## Contributing
 
-Contributions to gorag are welcome! Here are some ways you can help improve the project:
+Contributions to gopagefy are welcome! Here are some ways you can help improve the project:
 
 - **Report bugs and suggest features** by opening issues on GitHub
 - **Submit pull requests** with bug fixes or new features
@@ -337,14 +337,14 @@ Contributions to gorag are welcome! Here are some ways you can help improve the 
 
 ## License
 
-gorag is distributed under the **MIT License**.  
+gopagefy is distributed under the **MIT License**.  
 For complete license terms and conditions, see the [LICENSE](LICENSE.md) file in the repository.
 
 ---
 
 ## Contact
 
-For support, collaboration, or questions about gorag:
+For support, collaboration, or questions about gopagefy:
 
 **Email**: [raykavin.meireles@gmail.com](mailto:raykavin.meireles@gmail.com)  
 **GitHub**: [@raykavin](https://github.com/raykavin)  
