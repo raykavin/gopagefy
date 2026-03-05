@@ -1,5 +1,5 @@
 {
-    "name": "My Application DevContainer (Golang)",
+    "name": "Pagefy DevContainer (Golang)",
     "workspaceFolder": "/workspaces/app",
     "dockerComposeFile": [
         "../docker-compose.dev.yml"
@@ -21,8 +21,7 @@
                 "neonxp.gotools",
                 "tooltitudeteam.tooltitude",
                 "usernamehw.errorlens",
-                "mhutchie.git-graph",
-                "google.geminicodeassist"
+                "mhutchie.git-graph"
             ],
             "settings": {
                 "terminal.integrated.defaultProfile.linux": "fish",
