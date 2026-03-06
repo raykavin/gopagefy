@@ -1,4 +1,4 @@
-module gopagefy
+module github.com/raykavin/gopagefy
 
 go 1.25.0
 
